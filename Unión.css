@@ -1,0 +1,47 @@
+.body {
+    z-index: 1;
+    background-color: black;
+    color: white;
+
+}
+
+#contenedor {
+    display: grid;
+    z-index: 2;
+    background-color: rgb(2, 143, 168);
+    width: 140px;
+    height: 100%;
+    position: absolute;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;   
+    grid-gap: 10px;
+}
+
+button {
+    display: inline-block;
+    fill: 5px 5px;
+    box-shadow: 0 7px ;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-left: 10%;
+    border: 2px;
+    color: black(0, 0, 0);
+    border-radius: 12px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.estilo:hover {
+    background-color: rgb(2, 143, 168);
+}
+
+.estilo:active {
+    box-shadow: 0 7px rgb(0, 0, 0);
+    transform: translate(4px);
+}
